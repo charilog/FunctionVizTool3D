@@ -77,12 +77,6 @@ Run:
 ./build/FunctionVizTool3D
 ```
 
-If you are on Wayland and you hit platform plugin issues, try:
-
-```bash
-QT_QPA_PLATFORM=xcb ./build/FunctionVizTool3D
-```
-
 ## Build on Linux (Fedora)
 
 ```bash
