@@ -61,10 +61,7 @@ Install dependencies:
 
 ```bash
 sudo apt update
-sudo apt install -y \
-  build-essential cmake ninja-build \
-  qt6-base-dev qt6-tools-dev qt6-tools-dev-tools \
-  libgl1-mesa-dev mesa-common-dev
+sudo apt install -y   build-essential cmake ninja-build   qt6-base-dev qt6-tools-dev qt6-tools-dev-tools   libgl1-mesa-dev mesa-common-dev
 ```
 
 Configure & build:
@@ -89,10 +86,7 @@ QT_QPA_PLATFORM=xcb ./build/FunctionVizTool3D
 ## Build on Linux (Fedora)
 
 ```bash
-sudo dnf install -y \
-  gcc-c++ cmake ninja-build \
-  qt6-qtbase-devel qt6-qttools-devel \
-  mesa-libGL-devel
+sudo dnf install -y   gcc-c++ cmake ninja-build   qt6-qtbase-devel qt6-qttools-devel   mesa-libGL-devel
 cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 ./build/FunctionVizTool3D
@@ -133,17 +127,3 @@ cmake --build build --config Release
 ## License
 
 Add your preferred license (MIT/BSD/GPL/etc.). If you don’t know yet, set this to TBD.
-
----
-
-# FunctionVizTool3D (Ελληνικά)
-
-Το FunctionVizTool3D είναι ένα αυτόνομο GUI εργαλείο σε C++/Qt6 που οπτικοποιεί αντικειμενικές συναρτήσεις ως 3D επιφάνεια. Δίνεις έκφραση (string), όρια (bounds) και διάσταση. Η οπτικοποίηση γίνεται πάνω σε 2 μεταβλητές (X/Y), ενώ οι υπόλοιπες μεταβλητές “παγώνουν” σε Fixed τιμές.
-
-Γρήγορα βήματα (Linux):
-
-```bash
-cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
-cmake --build build
-./build/FunctionVizTool3D
-```
