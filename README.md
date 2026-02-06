@@ -110,20 +110,3 @@ cmake --build build --config Release
   --no-translations --compiler-runtime `
   ".\build\Release\FunctionVizTool3D.exe"
 ```
-
-## Repository layout
-
-- README.md (this file)
-- FunctionVizTool3D.png (screenshot shown at the top of the README; keep it in the repository root)
-- src/ (application source)
-- CMakeLists.txt
-
-## Roadmap
-
-- “Backend mode” to evaluate problems via an external library (e.g., direct problem->evaluate(x)) for full coverage of engineering/CEC/GKLS style problems.
-- Axis labels/ticks overlay in the 3D view.
-- Export current view to PNG and export sampled grid to CSV.
-
-## License
-
-Add your preferred license (MIT/BSD/GPL/etc.). If you don’t know yet, set this to TBD.
