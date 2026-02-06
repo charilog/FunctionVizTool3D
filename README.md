@@ -32,7 +32,7 @@ Constants:
 - pi, e
 
 Operators:
-- "+"  -  "*"  - "/"  "^"   
+- "+, -, *, /, ^"   
 
 Functions (common):
 - sin cos tan asin acos atan
