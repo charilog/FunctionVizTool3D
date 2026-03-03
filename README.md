@@ -1,5 +1,9 @@
 ![FunctionVizTool3D Screenshot](FunctionVizTool3D.png)
 
+## Windows installer
+
+Download the Windows installer from: https://dit.uoi.gr/files/FunctionVizTool.zip
+
 # FunctionVizTool3D
 
 FunctionVizTool3D is a standalone C++/Qt6 desktop application that visualizes objective functions as an interactive 3D surface. You provide a mathematical expression, variable bounds, and the problem dimension. The tool samples a 2D slice (two selected variables on X/Y, all other variables fixed) and renders the resulting surface in 3D.
